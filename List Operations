@@ -1,0 +1,130 @@
+# List-Operations
+LIST=
+
+thislist = list(("apple", "banana", "cherry"))
+print(thislist)
+
+------------
+Access list items
+thislist = list(("apple", "banana", "cherry"))
+print(thislist[2])
+
+------------
+Negative indexing
+
+thislist = list(("apple", "banana", "cherry"))
+print(thislist[-2])
+------------
+Range of indexes
+
+thislist = list(("apple", "banana", "cherry"))
+print(thislist[0:2])
+-------------
+Change item values
+
+thislist = ["apple", "banana", "cherry", "kiwi"]
+thislist[2] = "pie"
+print(thislist)
+--------------
+Insert items in list
+
+thislist = ["apple", "banana", "cherry", "kiwi"]
+thislist.insert(2, "pie")
+print(thislist)
+---------------
+Append items
+
+thislist = ["apple", "banana", "cherry", "kiwi"]
+thislist.append("pie")
+print(thislist)
+---------------
+Extend items
+
+thislist = ["apple", "banana", "cherry"]
+Tropical = ["pie", "orange", "nariyal"]
+thislist.extend(Tropical)
+print(thislist)
+---------------
+Remove specified item
+
+thislist = ["apple", "banana", "cherry"]
+thislist.pop(1)
+print(thislist)
+---------------
+Del any item
+
+thislist = ["apple", "banana", "cherry"]
+del thislist [1]
+print(thislist)
+-------------
+loop through a list
+
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+  print(x)
+-------------
+Loop Through the Index Numbers
+
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+  print(thislist[i])
+-------------
+Using a whie loop
+
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+-------------
+Looping Using List Comprehension
+
+thislist = ["apple", "banana", "cherry"]
+[print(x) for x in thislist]
+-------------
+Sort list Alphanumarically
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort()
+print(thislist)
+-------------
+Sort list
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+fruits.sort()
+print(fruits)
+-------------
+Sort Descending
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+fruits.sort(reverse = True)
+print(fruits)
+-------------
+Copy Lists
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+myfruits = fruits.copy()
+print(myfruits)
+-------------
+Join List
+
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+-------------
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+for x in list2:
+   list1.append(x)
+   
+print(list1)
+-------------
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+print(list1)
+-------------
