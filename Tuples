@@ -1,0 +1,123 @@
+TUPLE
+
+thistuple = ("apple","cherry","banana")
+print(thistuple)
+-------------
+LENGTH of tuple
+
+thistuple = tuple(("apple", "banana", "cherry"))
+print(len(thistuple))
+-------------
+Create Tuple With One Item
+
+thistuple = ("apple",)
+print(type(thistuple))
+
+thistuple = ("apple")
+print(type(thistuple))
+------------
+Tuple Items - Data Types
+
+tuple1 = ("apple", "banana", "cherry")
+tuple2 = (1, 5, 7, 9, 3)
+tuple3 = (True, False, False)
+
+print(tuple1)
+print(tuple2)
+print(tuple3)
+------------
+type()
+
+mytuple = ("apple", "banana", "cherry")
+print(type(mytuple))
+------------
+The tuple() Constructor
+
+thistuple = tuple(("apple", "banana", "cherry"))
+print(thistuple)
+------------
+Access Tuple Items
+
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[1])
+------------
+Negative Indexing
+
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[-1])
+------------
+Change Tuple Values
+
+x = ("apple","banana","cherry")
+y = list(x)
+y[1] = "kiwi"
+x = tuple(y)
+
+print(x)
+------------
+ADD items in tuple
+
+thistuple = ("apple", "banana", "cherry")
+y = list(thistuple)
+y.append("orange")
+thistuple = tuple(y)
+
+print(thistuple)
+-------------
+ADD items in tuple
+
+thistuple = ("apple", "banana", "cherry")
+y = ("orange",)
+thistuple += y
+
+print(thistuple)
+-------------
+Using a While Loop
+
+thistuple = ("apple", "banana", "cherry")
+i = 0
+while i < len(thistuple):
+  print(thistuple[i])
+  i = i + 1
+--------------
+Multiply Tuples
+
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+print(mytuple)
+---------------
+if else loop
+
+a = 33
+b = 200
+
+if b > a:
+  print("b is greater than a")
+ --------------
+ elif
+ 
+ a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+--------------
+ELSE
+
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+--------------
+Short hand ifelse
+
+a = 200
+b = 33
+print ("a") if a > b else print("b")
+--------------
+    
