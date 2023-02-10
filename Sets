@@ -1,0 +1,124 @@
+SETS
+
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+------------
+Duplicates Not Allowed
+
+thisset = {"apple", "banana", "cherry", "apple"}
+
+print(thisset)
+------------
+Get the Length of a Set
+
+thisset = {"apple", "banana", "cherry"}
+
+print(len(thisset))
+------------
+Access set items
+
+thisset = {"apple", "banana", "cherry", True, 1, 2}
+
+for x in thisset:
+  print(x)
+-------------
+thisset = {"apple", "banana", "cherry"}
+
+print("banana" in thisset)
+-------------
+Add Items
+
+thisset = {"apple", "banana", "cherry"}
+
+thisset.add("orange")
+
+print(thisset)
+-------------
+Add Sets
+
+thisset = {"apple", "banana", "cherry"}
+tropical = {"pine","mango","papaya"}
+
+thisset.update(tropical)
+
+print(thisset)
+-------------
+thisset = {"apple", "banana", "cherry"}
+mylist = ["pine","mango","papaya"]
+
+thisset.update(mylist)
+
+print(thisset)
+--------------
+REMOVE ITEMS
+
+thisset = {"apple", "banana", "cherry"}
+thisset.remove("banana")
+print(thisset)
+--------------
+thisset = {"apple", "banana", "cherry"}
+
+del thisset
+
+print(thisset)
+--------------
+Loops
+
+thisset = {"apple", "banana", "cherry"}
+
+for x in thisset:
+  print(x)
+--------------
+Join Two sets
+
+set1 = {"1","2","3"}
+set2 = {"4","5","6"}
+
+set3 = set1.union(set2)
+print(set3)
+--------------
+DICTIONARY
+
+thisdict = {
+
+"brand" : "Ford",
+"model" : "Mustang",
+"year" : "1964"
+
+}
+
+print(thisdict)
+--------------
+LENGTH of Dict.
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020
+}
+print(len(thisdict))
+--------------
+Dictionary Items - Data Types
+
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+--------------
+TYPE Dict.
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(type(thisdict))
+--------------
+The dict() Constructor
+
+thisdict = dict(name = "John", age = 36, country = "Norway")
+print(thisdict)
+--------------
